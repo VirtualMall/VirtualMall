@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtual Mall</title>
+    <link rel="stylesheet" href="/bootstrap-icons-1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b2e2dac0bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="hidden">
+    <!-- Start Preloader -->
+    <div class="centrado" id="onloadd">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <div class="container-fluid">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Registrarse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-cart-fill h4"></i></a>
+            </li>
+        </ul>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary text-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Virtual-Mall</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tecnología
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Computadores</a></li>
+                                <li><a class="dropdown-item" href="#">Smartwatch</a></li>
+                                <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                <li><a class="dropdown-item" href="#">Televisores</a></li>
+                            </ul>
+                        </li>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ropa
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Hombre</a></li>
+                                <li><a class="dropdown-item" href="#">Mujer</a></li>
+                                <li><a class="dropdown-item" href="#">Niños</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Accesorios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Audifonos</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios Celular</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios Computadores</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Soporte
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Servicio al Cliente</a></li>
+                                <li><a class="dropdown-item" href="#">PQRS</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 text-primary" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Carrusel -->
+    <div class="contenedor__slider">
+
+        <div class="contenedor">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+
+            <div class="cardds">
+                <label class="cardd" for="item-1" id="selector-1">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+                        class="slider-img img-fluid" alt="...">
+                </label>
+                <label class="cardd" for="item-2" id="selector-2">
+                    <img src="https://cdn.pixabay.com/photo/2014/08/05/10/27/iphone-410311_1280.jpg"
+                        class="islider-img mg-fluid" alt="...">
+                </label>
+                <label class="cardd" for="item-3" id="selector-3">
+                    <img src="https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_1280.jpg"
+                        class="islider-img mg-fluid" alt="...">
+                </label>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fondo.jpg" class="card-img-top" alt="..." style="height: 70px;">
+            </div>
+        </div>
+        <h3><a href="">Conoce más</a></h3>
+        <div class="row">
+            <div class="col mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/celular.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/formal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/cel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/celular.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <img src="/images/Fondos-web.jpg" class="card-img-top" alt="..." style="height: 70px;">
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <a href="https://api.whatsapp.com/send?phone=573118322148&text=hola%2C+tengo+una+duda" target="_blank"
+        class="appWhatssapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer-section footer">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Llámanos</h4>
+                                <span>+57 311 735 89 11</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Envíenos un correo</h4>
+                                <span>virtual.m4ll@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Encuéntranos</h4>
+                                <span>Cl. 55 #40, Medellín, Antioquia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="/"><img src="/images/logo VM.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="widget1">
+                            <div class="socialLinks">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100064212036289&mibextid=ZbWKwL"
+                                            target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=573118322148&text=hola%2C+tengo+una+duda"
+                                            target="_blank">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Enlaces útiles</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="fw-bold">Tecnología</p>
+                                    <ul>
+                                        <li><a href=".html">Computadores</a></li>
+                                        <li><a href="/.html">Smartwatch</a></li>
+                                        <li><a href="/.html">Tablets</a></li>
+                                        <li><a href="/.html">Televisores</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-bold">Ropa</p>
+                                    <ul>
+                                        <li><a href=".html">Hombre</a></li>
+                                        <li><a href="/.html">Mujer</a></li>
+                                        <li><a href="/.html">Niños</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-bold">Accesorios</p>
+                                    <ul>
+                                        <li><a href=".html">Audifonos</a></li>
+                                        <li><a href="/.html">Accesorios Celular</a></li>
+                                        <li><a href="/.html">Accesorios Computadores</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribete</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>No deje de suscribirse a nuestros nuevos feeds, por favor complete el formulario a
+                                    continuación.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, Todos los derechos reservados <a href="#">Virtual-Mall</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="/">Inicio</a></li>
+                                <li><a href="/">Nosotros</a></li>
+                                <li><a href="/">Tarjetas Regalo</a></li>
+                                <li><a href="/">Servicios</a></li>
+                                <li><a href="/">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script defer src="/js/main.js"></script>
+</body>
+
+</html>
