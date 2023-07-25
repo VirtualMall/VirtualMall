@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ropa</title>
+    <title>Inicar Sesión Virtual Mall</title>
     <link rel="stylesheet" href="bootstrap-icons-1.10.5/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/b2e2dac0bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="hidden">
+<body class="hidden ">
     <!-- Start Preloader -->
     <div class="centrado" id="onloadd">
         <div class="lds-ripple">
@@ -112,54 +112,57 @@
         </nav>
     </div>
 
-
-
-    <div class="container mb-3">
-        <span class="h3 fw-bold mt-4">Prendas para satisfacer tus gustos</span>
-        <div class="row">
-            <div class="col mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/ropa1.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Celulares en Promociónes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
+    <!-- Login inicio -->
+    <div class="container d-flex justify-content-center align-items-center vh-100 mt-5 mb-5">
+        <div class="bg-white p-5 rounded-5 text-secondary shadow" style="width: 25rem">
+            <div class="d-flex justify-content-center">
+                <img src="images/login-icon.svg" alt="login-icon" style="height: 7rem" />
+            </div>
+            <div class="text-center fs-1 fw-bold">Inicio de Sesión</div>
+            <div class="input-group mt-4">
+                <div class="input-group-text bg-info">
+                    <img src="images/username-icon.svg" alt="username-icon" style="height: 1rem" />
+                </div>
+                <input class="form-control bg-light" type="text" placeholder="Correo electrónico" />
+            </div>
+            <div class="input-group mt-1">
+                <div class="input-group-text bg-info">
+                    <img src="images/password-icon.svg" alt="password-icon" style="height: 1rem" />
+                </div>
+                <input class="form-control bg-light" type="password" placeholder="Contraseña" />
+            </div>
+            <div class="d-flex justify-content-around mt-1">
+                <div class="d-flex align-items-center gap-1">
+                    <input class="form-check-input" type="checkbox" />
+                    <div class="pt-1" style="font-size: 0.9rem">Recordarme</div>
+                </div>
+                <div class="pt-1">
+                    <a href="#" class="text-decoration-none text-info fw-semibold fst-italic"
+                        style="font-size: 0.9rem">Olvidaste tu contraseña?</a>
                 </div>
             </div>
-            <div class="col mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/formal.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Ropa</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
+            <div class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">
+                Continuar
+            </div>
+            <div class="d-flex gap-1 justify-content-center mt-1">
+                <div>No tienes una cuenta?</div>
+                <a href="register.html" class="text-decoration-none text-info fw-semibold">Registrarse</a>
+            </div>
+            <div class="p-3">
+                <div class="border-bottom text-center" style="height: 0.9rem">
+                    <span class="bg-white px-3">o</span>
                 </div>
             </div>
-            <div class="col mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/ropa2.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Celulares Gaming</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/ropa3.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Mas en Celulares</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
+            <div class="btn d-flex gap-2 justify-content-center border mt-3 shadow-sm">
+                <img src="images/google-icon.svg" alt="google-icon" style="height: 1.6rem" />
+                <div class="fw-semibold text-secondary">Continar con Google</div>
             </div>
         </div>
 
     </div>
+    <!-- Login cieree -->
+
+
 
     <!-- footer -->
     <a href="https://api.whatsapp.com/send?phone=573118322148&text=hola%2C+tengo+una+duda" target="_blank"
@@ -292,7 +295,8 @@
                     <div class="col"></div>
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2023, Todos los derechos reservados <a href="index.html">Virtual-Mall</a></p>
+                            <p>Copyright &copy; 2023, Todos los derechos reservados <a
+                                    href="index.html">Virtual-Mall</a></p>
                         </div>
                     </div>
                     <div class="col"></div>
@@ -300,8 +304,6 @@
             </div>
         </div>
     </footer>
-
-
 
 
     <script src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
